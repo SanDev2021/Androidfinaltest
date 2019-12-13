@@ -9,8 +9,19 @@
 
 <fragment
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="600dp"
     android:id="@+id/fraqgment_id"
     android:name="com.example.sandeep_c0766628_ft.List_fragment"></fragment>
+
+    <Button
+        android:id="@+id/adduserbtn"
+        android:onClick="addclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#0D796B"
+        android:text="Add User"
+        android:padding="10dp"
+        android:textSize="20dp"></Button>
 
 </LinearLayout>
